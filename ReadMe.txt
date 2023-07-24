@@ -25,9 +25,6 @@ device and the compatible test specimens. Files include CAD designs ready to 3D
 print (.step), aluminum parts to cut (.step), photolithography sample mold
 shapes (.dxf), and parts to purchase.
 
-An additional folder is added to modify the original device design to be a
-compression device. 
-
 
 *******************************************************************************
 
@@ -45,6 +42,14 @@ compression device.
 
  - Device Purchased Parts (CAD of each part that needs to be purchased through 
    third party venders)
+    + 8381K3 - Rail.step (Order 1 - Metal rail attached to 'TensionDevice_Rail Mount')
+    + Aluminum Timing Pulley (20-60T-8B-6).step (Order 4 - Four placed on the top of the device, supports the timing belt)
+    + BESTORQ 620-5M-9 5M Timing Belt.step (Order 1 - Wrapped around the 'Timing Pulley')
+    + Mcmaster - 8381K3 (x2).step (Order 2 - Two placed on the 'Rail'. Connect each to one 'Impact Grip')
+    + T8 Lead Screw (MOTOU 0791300576783).step (Order 4 - The four "pillars" seen in the Device Assembly)
+    + T8 Pillow Block Bearing (MOTOU 0791300576783).step (Order 8 - Holds the 'lead screws'. Attach four into the 'NikonBasePlate'. Attach four into the 'TopPlate_Aluminum')
+    + T8 anti-backlash Nut (MOTOU 0791300576783).step (Order 4 - Placed around each 'lead screw' and fits inside the four holes of the 'Z-Stage_Aluminum')
+    + Timing Belt.step (Order 1 - Placed around the 'timing pulleys')
 
  - Waterjet Cut Aluminum Parts (Aluminum parts to be created to the specifications of the CAD files with a watercut jet)
     + Tension Device_Z-Stage_Aluminum.step (Connected to the four T8 Lead Screws, the two impact grips, and the rail mount)
@@ -53,6 +58,7 @@ compression device.
     + TensionDevice_TopPlate_Aluminum.step (Top of device to mount the rail and control knob)
 
 * Denotes parts that might need to be adapted depending on the user's microscope system or sample dish size
+
 
 ===============================================================================
 |              Test sample parts for various tensile speciments:              |
