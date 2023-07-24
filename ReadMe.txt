@@ -36,22 +36,23 @@ compression device.
 -------------------------------------------------------------------------------
 - Tension Device Assembly.step (Assembly file for entire tension device with all individual parts that can be found in more detail below) 
 
-- Device 3D Printed Parts (parts to 3D print)
-    + Motion Control Knob 
-    + TensionDevice - Impact Grip
-    + TensionDevice - Sample Dish Holder
-    + TensionDevice_Rail Mount
-    + Timing Belt Tensioner
+- Device 3D Printed Parts (Parts to 3D print)
+    + Motion Control Knob (Rotates the four T8 Lead Screws with the Timing Belt)
+    + TensionDevice - Impact Grip (Connected to part '8381K3' which sits on the rail. A cylindrical magnet is placed in the top of the impact grip which connects the impact grip with a metal screw at the end of the linear actuator of the motor)
+    + *TensionDevice - Sample Dish Holder (Holder for a 1-well rectangular sample dish)
+    + TensionDevice_Rail Mount (Connects the rail to the 'Z-Stage_Aluminum')
+    + Timing Belt Tensioner (Placed on top of the 'TopPlate_Aluminum. A cylindrical piece must be placed in the top of it to hold the timing belt in tension)
 
  - Device Purchased Parts (CAD of each part that needs to be purchased through 
    third party venders)
 
- - Waterjet Cut Aluminum Parts (aluminum parts to be created to the specifications of the CAD files with a watercut jet)
-    + Tension Device_Z-Stage_Aluminum.step
-    + TensionDevice_Nikon Baseplate Mount.step
-    + TensionDevice_NikonBaseplate.step
-    + TensionDevice_TopPlate_Aluminum.step
+ - Waterjet Cut Aluminum Parts (Aluminum parts to be created to the specifications of the CAD files with a watercut jet)
+    + Tension Device_Z-Stage_Aluminum.step (Connected to the four T8 Lead Screws, the two impact grips, and the rail mount)
+    + *TensionDevice_Nikon Baseplate Mount.step (Mounts motors to either side of the baseplate)
+    + *TensionDevice_NikonBaseplate.step (Aluminum plate with dimensions that fit a microscope stage)
+    + TensionDevice_TopPlate_Aluminum.step (Top of device to mount the rail and control knob)
 
+* Denotes parts that might need to be adapted depending on the user's microscope system or sample dish size
 
 ===============================================================================
 |              Test sample parts for various tensile speciments:              |
@@ -60,16 +61,16 @@ The following files are used to create the parts needed for the samples tested i
 
 - Samples
     + PDMS (Fig. 3A - thin dogbone-shaped specimen made from polydimethylsiloxane)
-        + 10mm PDMS Sample - F_Gripper.step (1 grip to hold specimen)
-        + 10mm PDMS Sample - M_Gripper.step (1 grip to hold specimen)
+        + 10mm PDMS Sample - F_Gripper.step (one grip to hold specimen)
+        + 10mm PDMS Sample - M_Gripper.step (one grip to hold specimen)
         + 10mm PDMS Sample - Holder (part to aid in the assembly of PDMS dogbones into the 2 grippers)
         + SU8 Patterned Figure - SU8.dxf (pattern used to create a dogbone mold from UV patterned SU8 on silicon wafers)
     + Foam (Fig. 3B - dogbone-shaped foam specimen)
-	+ 2mmFoamSample - F_Gripper.step (1 grip to hold specimen)
-        + 2mmFoamSample - M_Gripper.step (1 grip to hold specimen)
+	+ 2mmFoamSample - F_Gripper.step (one grip to hold specimen)
+        + 2mmFoamSample - M_Gripper.step (one grip to hold specimen)
     + Hydrogel (Fig. 3C - hydrogel dogbone for 3D samples)
-        + 7mm Hydrogel Mold - F-grip.step (1 grip to hold the specimen)
-        + 7mm Hydrogel Mold - M-grip.step (1 grip to hold the specimen)
+        + 7mm Hydrogel Mold - F-grip.step (one grip to hold the specimen)
+        + 7mm Hydrogel Mold - M-grip.step (one grip to hold the specimen)
         + 7mm Hydrogel - Sample Mold.step (mold to pour the hydrogel into)
 
 
@@ -92,6 +93,7 @@ An additional folder has been added with parts needed to modify the tension devi
     + Compression - Stationary Sample Grip.step
     + Compression Motor Mount Plate.step
     + Compression Sample - Stamp_Hamburger.step
+
 
 *******************************************************************************
 
