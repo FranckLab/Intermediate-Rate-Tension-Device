@@ -92,3 +92,18 @@ An additional folder has been added with parts needed to modify the tension devi
     + Compression - Stationary Sample Grip.step
     + Compression Motor Mount Plate.step
     + Compression Sample - Stamp_Hamburger.step
+
+*******************************************************************************
+
+===============================================================================
+|              Citation                                                       |
+-------------------------------------------------------------------------------
+TBD
+
+
+*******************************************************************************
+
+===============================================================================
+|              Contact and Support                                            |
+-------------------------------------------------------------------------------
+Email: Jing Zhang (jzhang2338@wisc.edu) or Prof. Christian Franck (cfranck@wisc.edu)
