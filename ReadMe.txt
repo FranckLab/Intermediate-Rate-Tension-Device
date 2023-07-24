@@ -31,14 +31,18 @@ shapes (.dxf), and parts to purchase.
 ===============================================================================
 |              Tension device designs:                                        |
 -------------------------------------------------------------------------------
-- Tension Device Assembly.step (Assembly file for entire tension device with all individual parts that can be found in more detail below) 
+- Tension Device Assembly.step (Assembly file for entire tension device with all individual parts that can be found in more
+  detail below) 
 
 - Device 3D Printed Parts (Parts to 3D print)
     + Motion Control Knob (Rotates the four T8 Lead Screws with the Timing Belt)
-    + TensionDevice - Impact Grip (Connected to part '8381K3' which sits on the rail. A cylindrical magnet is placed in the top of the impact grip which connects the impact grip with a metal screw at the end of the linear actuator of the motor)
+    + TensionDevice - Impact Grip (Connected to part '8381K3' which sits on the rail. A cylindrical magnet is placed in the
+                                   top of the impact grip which connects the impact grip with a metal screw at the end of 
+                                   the linear actuator of the motor)
     + *TensionDevice - Sample Dish Holder (Holder for a 1-well rectangular sample dish)
     + TensionDevice_Rail Mount (Connects the rail to the 'Z-Stage_Aluminum')
-    + Timing Belt Tensioner (Placed on top of the 'TopPlate_Aluminum. A cylindrical piece must be placed in the top of it to hold the timing belt in tension)
+    + Timing Belt Tensioner (Placed on top of the 'TopPlate_Aluminum. A cylindrical piece must be placed in the top of it to
+                             hold the timing belt in tension)
 
  - Device Purchased Parts (CAD of each part that needs to be purchased through 
    third party venders)
@@ -47,8 +51,10 @@ shapes (.dxf), and parts to purchase.
     + BESTORQ 620-5M-9 5M Timing Belt.step (Order 1 - Wrapped around the 'Timing Pulley')
     + Mcmaster - 8381K3 (x2).step (Order 2 - Two placed on the 'Rail'. Connect each to one 'Impact Grip')
     + T8 Lead Screw (MOTOU 0791300576783).step (Order 4 - The four "pillars" seen in the Device Assembly)
-    + T8 Pillow Block Bearing (MOTOU 0791300576783).step (Order 8 - Holds the 'lead screws'. Attach four into the 'NikonBasePlate'. Attach four into the 'TopPlate_Aluminum')
-    + T8 anti-backlash Nut (MOTOU 0791300576783).step (Order 4 - Placed around each 'lead screw' and fits inside the four holes of the 'Z-Stage_Aluminum')
+    + T8 Pillow Block Bearing (MOTOU 0791300576783).step (Order 8 - Holds the 'lead screws'. Attach four into the
+                                                          'NikonBasePlate'. Attach four into the 'TopPlate_Aluminum')
+    + T8 anti-backlash Nut (MOTOU 0791300576783).step (Order 4 - Placed around each 'lead screw' and fits inside the four
+                                                       holes of the 'Z-Stage_Aluminum')
     + Timing Belt.step (Order 1 - Placed around the 'timing pulleys')
 
  - Waterjet Cut Aluminum Parts (Aluminum parts to be created to the specifications of the CAD files with a watercut jet)
@@ -63,7 +69,8 @@ shapes (.dxf), and parts to purchase.
 ===============================================================================
 |              Test sample parts for various tensile speciments:              |
 -------------------------------------------------------------------------------
-The following files are used to create the parts needed for the samples tested in the tension device (as seen in Fig. 3 of the paper) 
+The following files are used to create the parts needed for the samples tested in the tension device (as seen in Fig. 3
+of the paper) 
 
 - Samples
     + PDMS (Fig. 3A - thin dogbone-shaped specimen made from polydimethylsiloxane)
